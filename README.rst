@@ -46,11 +46,13 @@ When generating a config, cookiecutter will ask a bunch of questions.
   To utilize full server capacity it makes sense to create slightly more Splash
   instances than CPU cores - e.g. on 2-core machine 3 instances often
   work best.
+* ``health_check_period (default is "2")`` - time to wait between health check calls
 * ``splash_version (default is "3.0")`` - a version of scrapighub/splash
   Docker image.
 * ``auth_user (default is "user")``, ``auth_password (default is "userpass")``
   - HTTP Basic Auth credentials for Splash.
 * ``splash_verbosity (default is "1")`` - Splash log verbosity, from 0 to 5.
+* ``disable_private_mode (default is "false")`` - splash browsing setting, set to "true" to add this flag for splash
 * ``max_timeout (default is "3600")`` - maximum allowed timeout.
 * ``maxrss_mb (default is "3000")`` - a soft memory limit, in MB. Splash
   container will be restarted after some time if it starts to use more memory

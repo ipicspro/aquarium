@@ -1,10 +1,12 @@
 {
     "folder_name": "aquarium",
     "num_splashes": 3,
+    "health_check_period": 2,
     "splash_version": "3.0",
     "auth_user": "user",
     "auth_password": "userpass",
     "splash_verbosity": 1,
+    "disable_private_mode": "false",
     "max_timeout": 3600,
     "maxrss_mb": 3000,
     "splash_slots": 5,
