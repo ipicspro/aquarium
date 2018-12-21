@@ -36,6 +36,13 @@ Then use http://<host>:8050 as a regular Splash_ instance. On Linux
 http://0.0.0.0:8050 should work; on OS X and Windows IP address depends on
 boot2docker or docker-machine.
 
+Check Splash Script
+-------------------
+
+This script is intended to be run as a cron job. Every time it is run it will check if each splash server is reponsive and restart ones if the response from a health check is non-200. This is needed because the official splash docker image is prone to gettign into a state where it just hangs, meaning the docker restart always option is not enough. Right now the script must be changed if the number of splash servers in the cluster changes.
+Current Crontab
+``*/10 * * * * bash /home/ocod/check_splash``
+
 Options
 -------
 
