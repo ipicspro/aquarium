@@ -13,4 +13,7 @@ do
     	fi
 	sleep 1
 done
+
+docker restart aq_tor_1
+
 echo "END" >> restart.log
