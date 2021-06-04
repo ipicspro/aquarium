@@ -55,9 +55,7 @@ services:
 
     {% if tor %}
     tor:
-        # image: jess/tor-proxy
-        build: ./tor-proxy
-        # container_name: tor-proxy
+        image: jess/tor-proxy
         expose:
             - 9050
         logging:
