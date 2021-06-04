@@ -8,7 +8,7 @@
     "splash_verbosity": 0,
     "disable_private_mode": "true",
     "max_timeout": 3600,
-    "maxrss_mb": 5000,
+    "maxrss_mb": 6500,
     "splash_slots": 15,
     "stats_enabled": 1,
     "stats_auth": "",
