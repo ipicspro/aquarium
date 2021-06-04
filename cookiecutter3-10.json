@@ -9,7 +9,7 @@
     "disable_private_mode": "true",
     "max_timeout": 3600,
     "maxrss_mb": 5000,
-    "splash_slots": 15,
+    "splash_slots": 10,
     "stats_enabled": 1,
     "stats_auth": "",
     "tor": 1,
