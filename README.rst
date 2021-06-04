@@ -45,6 +45,11 @@ This script is intended to be run as a cron job. Every time it is run it will ch
 Current Crontab
 ``*/10 * * * * bash /home/ocod/check_splash``
 
+add to Crontab
+crontab -e
+add:
+*/20 * * * * bash /home/py/aq/check_splash
+
 Options
 -------
 
