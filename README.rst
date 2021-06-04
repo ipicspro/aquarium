@@ -8,6 +8,7 @@ with extra features and without common pitfalls.
 .. _cookiecuter: http://cookiecutter.rtfd.org
 .. _Splash: https://github.com/scrapinghub/splash
 .. _Docker Compose: https://docs.docker.com/compose/
+.. https://blog.jessfraz.com/post/tor-socks-proxy-and-privoxy-containers/
 
 Usage
 -----
