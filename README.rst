@@ -50,6 +50,8 @@ crontab -e
 add:
 */20 * * * * bash /home/py/aq/check_splash
 
+(check logs: cat /var/log/syslog)
+
 Options
 -------
 
