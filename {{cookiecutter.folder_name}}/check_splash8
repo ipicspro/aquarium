@@ -1,0 +1,19 @@
+#!/bin/sh
+
+RESPONSE=response
+
+echo "BEGIN" >> restart.log
+for index in 0 1 2 3 4 5 6 7
+do
+	status=$(docker exec aq_splash${index}_1 curl -s -w %{http_code} -m 20 localhost:8050 -o $RESPONSE)
+	if [ $status -ne 200 ]
+	then
+		docker restart aq_splash${index}_1
+    		echo "Restarted: Splash$index. Time: $(date '+%A %W %Y %X')" >> restart.log
+    	fi
+	sleep 1
+done
+
+# docker restart aq_tor_1
+
+echo "END" >> restart.log
