@@ -48,7 +48,7 @@ Current Crontab
 add to Crontab
 crontab -e
 add:
-*/20 * * * * bash /home/py/aq/check_splash
+*/20 * * * * bash /home/py/aq/check_splash3  (3,5,7,8 splashes: fro 3 => check_splash3)
 
 (check logs: cat /var/log/syslog)
 
