@@ -1,0 +1,10 @@
+#!/bin/sh
+
+echo "BEGIN" >> restart.log
+
+docker restart aq_tor_1
+echo "Restarted: Tor. Time: $(date '+%A %W %Y %X')" >> restart.log
+
+sleep 1
+
+echo "END" >> restart.log
