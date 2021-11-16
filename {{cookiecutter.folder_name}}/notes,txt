@@ -1,0 +1,6 @@
+
+sudo crontab -e
+
+*/20 * * * * bash /home/py/aq/check_splash3
+* 0,6,12,18 * * * bash /home/py/aq/check_tor
+* 23 * * * bash /home/py/aq/reboot_run

@@ -1,0 +1,8 @@
+#!/bin/sh
+
+#echo "BEGIN" >> reboot.log
+
+echo "Restarted: Reboot Time: $(date '+%A %W %Y %X')" >> reboot.log
+reboot
+
+#echo "END" >> restart.log
