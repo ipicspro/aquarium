@@ -1,7 +1,7 @@
 {
     "health_check_period": 20,
     "folder_name": "aq",
-    "num_splashes": 3,
+    "num_splashes": 5,
     "splash_version": "3.5",
     "auth_user": "",
     "auth_password": "",
