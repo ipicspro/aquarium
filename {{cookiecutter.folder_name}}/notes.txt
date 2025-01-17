@@ -1,5 +1,6 @@
 
 sudo crontab -e
+*crontab -e
 
 */20 * * * * bash /home/py/aq/check_splash5
 * 0,6,12,18 * * * bash /home/py/aq/check_tor
